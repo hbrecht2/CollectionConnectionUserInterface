@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<head>
+    <title>Style Guide</title>
+    <style> 
+    body{
+        width: 70%;
+        margin-left: 15%;
+    }
+    div{
+        border-bottom: 4px solid rgb(158, 155, 155);
+    }
+
+    .pinkHeadings{
+        color: rgb(255, 210, 217); 
+        font-size: 50px; 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .grayHeadings{
+        color: rgb(158, 155, 155); 
+        font-size: 50px; 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    h6{
+        color: rgb(207, 166, 171);
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    ul{
+        list-style-type: none;
+        text-align: center;
+    }
+    
+    li{
+        display: inline-block;
+    }
+    
+    #pink{
+        background-color:rgb(255, 210, 217);
+        width: 50px;
+        height: 50px;
+        margin-right: 50px;
+        border: none;
+    }
+    
+    #gray{
+        background-color:rgb(158, 155, 155);
+        width: 50px;
+        height: 50px;
+        margin-right: 50px;
+        border: none;
+    }
+
+    #darkPink{
+        background-color:rgb(207, 166, 171);
+        width: 50px;
+        height: 50px;
+        margin-right: 50px;
+        border: none;
+    }
+
+    p{
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:rgb(158, 155, 155)
+    }
+
+    button{
+        background-color:rgb(158, 155, 155);
+        color: white;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        outline: none;
+    }
+
+    button:hover{
+        cursor: pointer;
+        box-shadow: 2px 2px 2px 2px lightgray;
+    }
+    #buttonDiv{
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+
+    }
+
+    #alertBox{
+        border: 3px solid rgb(158, 155, 155);
+        border-radius: 30px;
+        margin-bottom: 15px;
+        padding: 15px;
+        width: 20%;
+        color: rgb(207, 166, 171);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="collectionConnectionLogo.png">
+    </div>
+
+    <div>
+        <h1 class="pinkHeadings">Headings</h1>
+        <h1 class="grayHeadings">Headings</h1>
+        <h6>Subheadings</h6>
+    </div>
+
+    <div id="colorDiv">
+        <h1 class="pinkHeadings">Color Scheme</h1>
+        <ul>
+            <li><div id="pink"></div></li>
+            <li><div id="gray"></div></li>
+            <li><div id="darkPink"></div></li>
+        </ul>
+    </div>
+
+    <div>
+        <h1 class="pinkHeadings">Font Family</h1>
+        <p>Georgia, Times New Roman, Times, serif</p>
+    </div>
+
+    <div>
+        <h1 class="pinkHeadings">Buttons</h1>
+        <div id="buttonDiv">
+            <button>Submit</button>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="pinkHeadings">Alert</h1>
+        <div id="alertBox">
+            This is an alert.
+        </div>
+    </div>
+</body>
+</html>
