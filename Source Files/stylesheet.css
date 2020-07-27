@@ -1,0 +1,34 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: white;
+}
+
+#mainPageContent h1 {
+  color: #9e9b9b;
+}
+
+#mainPageContent p {
+  color: #ffd2d9;
+}
+
+.btn-link-dkPink {
+  color: #cfa6ab;
+  text-decoration: none;
+}
+
+.outline {
+  border: 1px solid black;
+}
+
+.collectionItemListing h3 {
+  color: #cfa6ab;
+}
+
+.collectionItemListing ul {
+  list-style-type: none;
+}
+
+.collectionItemListing ul li a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=stylesheet.css.map */

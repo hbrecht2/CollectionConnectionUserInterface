@@ -1,0 +1,44 @@
+$gray: rgb(158, 155, 155);
+$lightPink: rgb(255, 210, 217);
+$darkPink: rgb(207, 166, 171);
+
+
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+
+//Home page styling 
+#mainPageContent{
+    h1{
+        color: $gray;
+    }
+    p{
+        color: $lightPink;
+    }
+}
+
+.btn-link-dkPink{
+    color: $darkPink;
+    text-decoration: none;
+}
+
+.outline{
+    border: 1px solid black;
+}
+
+.collectionItemListing{
+    h3{
+        color: $darkPink;
+    }
+    ul{
+        list-style-type: none;
+        li{
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
