@@ -20,25 +20,48 @@ $darkPink: rgb(207, 166, 171);
     }
 }
 
+//Nav menu styling 
+.navMenuIcon{
+    font-size: 30px;
+}
+
 .btn-link-dkPink{
     color: $darkPink;
     text-decoration: none;
 }
 
 .outline{
-    border: 1px solid black;
+    border: 4px groove $gray;
+    border-radius: 14px;
+    overflow: hidden;
 }
 
 .collectionItemListing{
     h3{
         color: $darkPink;
     }
+    .editingBtnDiv{
+        a{
+            color: white;
+        }
+        button{
+            margin-bottom: 3px;
+        }
+    }
     ul{
         list-style-type: none;
         li{
             a{
+                color: black;
                 text-decoration: none;
             }
         }
     }
 }
+
+
+.collectionListContent{
+    width: 90%;
+    margin-left: 5%;
+}
+

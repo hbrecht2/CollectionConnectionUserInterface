@@ -11,17 +11,31 @@
   color: #ffd2d9;
 }
 
+.navMenuIcon {
+  font-size: 50px;
+}
+
 .btn-link-dkPink {
   color: #cfa6ab;
   text-decoration: none;
 }
 
 .outline {
-  border: 1px solid black;
+  border: 4px groove #9e9b9b;
+  border-radius: 14px;
+  overflow: hidden;
 }
 
 .collectionItemListing h3 {
   color: #cfa6ab;
+}
+
+.collectionItemListing .editingBtnDiv a {
+  color: white;
+}
+
+.collectionItemListing .editingBtnDiv button {
+  margin-bottom: 3px;
 }
 
 .collectionItemListing ul {
@@ -29,6 +43,12 @@
 }
 
 .collectionItemListing ul li a {
+  color: black;
   text-decoration: none;
+}
+
+.collectionListContent {
+  width: 90%;
+  margin-left: 5%;
 }
 /*# sourceMappingURL=stylesheet.css.map */
