@@ -27,72 +27,26 @@
 
 <body>
     <!--Navigation Header-->
-    <nav class="navbar navbar-expand-sm navbar-light pt-0">
+
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
+
             <a class="navbar-brand" href="#"><img src="../DesignDocuments/collectionConnectionLogo.png"></a>
-            <div>
+            <div class="text-right">
                 <p class="navbar-text"> Hello, User!</p>
+                <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#navCollapseMenu">
+                    <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                </button>
+            
+
+            <div class="collapse navbar-collapse" id="navCollapseMenu">
                 <div class="btn-group" role="group" aria-label="Navigation Options">
                     <a class="btn btn-secondary active" href="userHomePage.html">My Collections</a>
                     <a class="btn btn-secondary" href="shareCollection.html">Share My Collection</a>
                     <button id="logOutBtn" class="btn btn-secondary" type="button">Log Out</button>
                 </div>
             </div>
-        </div>
-    </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="../DesignDocuments/collectionConnectionLogo.png"></a>
-        <p class="navbar-text"> Hello, User!</p>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarCollapseMenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navBarCollapseMenu">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-
-    <nav class="navbar navbar-static-top">
-        <div class="container-fluid">
-  
-                <a class="navbar-brand" href="#"><img src="../DesignDocuments/collectionConnectionLogo.png"></a>
-                <p class="navbar-text"> Hello, User!</p>
-                <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#navCollapseMenu">
-                    <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-                </button>
-
-            <div class="collapse navbar-collapse" id="navCollapseMenu">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item"><a class="btn btn-secondary active" href="userHomePage.html">My Collections</a></li>
-                    <li class="nav-item"><a class="btn btn-secondary" href="shareCollection.html">Share My Collection</a></li>
-                    <li class="nav-item"><button id="logOutBtn" class="btn btn-secondary" type="button">Log Out</button></li>
-                </ul>
             </div>
         </div>
     </nav>
@@ -113,20 +67,12 @@
                 <div class="col-12 col-md-8">
                     <h3>Postcards</h3>
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-12">
                             <ul>
                                 <li><a href="collectionItemListing.html">Orange Beach, CA</a></li>
                                 <li><a href="collectionItemListing.html">St. Louis, MO</a></li>
                                 <li><a href="collectionItemListing.html">Philadelphia, PA</a></li>
                                 <li><a href="collectionItemListing.html">Buffalo, NY</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-8">
-                            <ul>
-                                <li>1998</li>
-                                <li>2002</li>
-                                <li>2019</li>
-                                <li>2005</li>
                             </ul>
                         </div>
                     </div>
