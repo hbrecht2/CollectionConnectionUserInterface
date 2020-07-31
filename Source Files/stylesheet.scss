@@ -99,6 +99,9 @@ body{
         text-decoration: none;
         outline: none;
     }
+    .activeLink{
+        color: $darkPink;
+    }
 }
 
 
@@ -117,4 +120,16 @@ body{
     width: 50%;
     margin-left: 24%;
     padding: 2%
+}
+
+//Account Information Styling 
+.accountInformation{
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+//Contact Form Styling
+#contactUsForm{
+    color: $gray;
 }
